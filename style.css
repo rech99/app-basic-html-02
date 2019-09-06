@@ -1,0 +1,38 @@
+#hueso{
+    position: absolute;
+    z-index: 100;
+    left: 270px;
+    top: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+#drum-buttons-container{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.btn-drum{
+    position: relative;
+}
+
+/*edita todos los tag nav*/
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: red;
+}
+
+/*edita todos los que tengan el identificador*/
+#nav-container-02{
+   background-color: yellow; 
+}
+
+/*todos los que tengan la clase*/
+.nav-menu-bar{
+    background-color: violet;
+}
